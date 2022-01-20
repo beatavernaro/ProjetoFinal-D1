@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --dark-bg-color: #252B42;
+    --main-pink-color: #EF2779;
+    --main-purple-color: #7834BE;
+    --light-color: #ffffff;
+    --poppins: 'Poppins', sans-serif;
+
+
+  }
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+
+.bg{
+    background: linear-gradient(39.97deg, var(--main-pink-color), var(--main-purple-color)) no-repeat;
+}
+/* Inicio navbar  */
+
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    line-height: 60px;
+}
+
+#logo{
+    width: 100px;
+    height: 60px;
+    background-color: turquoise;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.botao-index{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    background-color: violet;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 50%;
+}
+#botao-cadastro{
+    background-color: tomato;
+    width: 100px;
+    height: 60px;
+}
+#botao-login{
+    width: 100px;
+    height: 60px;
+    background-color: yellow;
+}
+
+
+
+/* Fim navbar  */
+
+/* Inicio primeira sessão  */
+.first-section{
+    display: flex;
+    }
+
+/* #image-first-section{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} */
+
+#text-first-section{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    font-family: var(--poppins);
+    color: var(--light-color);
+    text-align: center;
+}
+
+#title-index{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    margin-top: 50px;
+    color: var(--dark-bg-color);
+}
+#text-index{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0px 120px 0px 120px;
+    
+}
+
+/* Fim primeira sessão  */
+
+/* Inicio segunda sessão  */
+.second-section{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: -100px;
+}
+
+.cta-cadastro{
+    background-color: var(--dark-bg-color);
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    text-decoration: none;
+}
+
+/* Fim segunda sessão  */
+
+/* Inicio terceira sessão  */
+
+.ul-container{
+    width: 100%;
+    height: 180px;
+}
+.job-container{
+    background-color: darkgreen;
+    width: 100%;
+    height: 85px;
+    display: flex;
+}
+
+.job-index-number{
+    background-color: darkgrey;
+    width: 5%;
+    text-align: center;
+    line-height: 85px;
+}
+
+.job-detail{ /* Container para detalhar a vaga */
+    background-color: darkmagenta;
+    width: 95%;
+    display: flex;
+}
+
+.job-name-container{
+    background-color: darksalmon;
+    width:100%;
+    line-height: 42.5px;
+}
+
+
+.tag-container{
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.tag-design{
+    width: 150px;
+    height: 40px;
+    background-color: lightseagreen;
+    line-height: 40px;
+}
+/* Fim terceira sessão  */
+
+/* Inicio Footer  */
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: maroon;
+}
+/* Fim Footer  */
